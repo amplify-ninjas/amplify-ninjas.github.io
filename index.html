@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+			.background-image {
+				/* Full height */
+                height: 100%; 
+                width: 100%;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+				background-image: url('jukeboxbg.jpeg');
+                position: absolute;
+			}
+			.overlay {
+				background-color: #162955;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                opacity: 0.8;
+                filter: alpha(opacity=80);
+			}
+
+            .wrapper {
+                height: 100%;
+            }
+
+            .text {
+                color: white;
+                text-align: center;
+                font-family: arial;
+            }
+
+            .title {
+                font-size: 6em;
+            }
+
+            .center {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+		</style>
+	</head>
+	<body>
+        <div class="wrapper">
+    		<div class="background-image"></div>
+    		<div class="overlay">
+                <div class="center">
+                    <p class="text">
+                        <span class="title">AMPLIFY</span>
+                        <br/>
+                        COMING SOON...
+                    </p>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
